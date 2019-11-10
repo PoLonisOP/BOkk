@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		352E46C123502B6F00F42BC1 /* Scroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 352E46C023502B6F00F42BC1 /* Scroll.swift */; };
+		3577EC23234DD79E00D8CDA6 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577EC22234DD79D00D8CDA6 /* Data.swift */; };
+		3577EC27234DF31A00D8CDA6 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577EC26234DF31A00D8CDA6 /* SwiftUIView.swift */; };
+		3577EC29234DF78E00D8CDA6 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577EC28234DF78E00D8CDA6 /* AppView.swift */; };
+		358AF9E623516A2C00BC9383 /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 358AF9E523516A2C00BC9383 /* ContentView2.swift */; };
+		3592CE2E234C891500454D14 /* YoutubeRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3592CE2D234C891500454D14 /* YoutubeRow.swift */; };
 		9BCE99B6233B079E00E8DD62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */; };
 		9BCE99B8233B079E00E8DD62 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */; };
 		9BCE99BA233B079E00E8DD62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99B9233B079E00E8DD62 /* ContentView.swift */; };
 		9BCE99BC233B07A100E8DD62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99BB233B07A100E8DD62 /* Assets.xcassets */; };
 		9BCE99BF233B07A100E8DD62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99BE233B07A100E8DD62 /* Preview Assets.xcassets */; };
 		9BCE99C2233B07A100E8DD62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BCE99C0233B07A100E8DD62 /* LaunchScreen.storyboard */; };
+		9BCE99CA233B235C00E8DD62 /* TaiwanyoutubeList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99C9233B235C00E8DD62 /* TaiwanyoutubeList.swift */; };
+		9BCE99CE233B28A500E8DD62 /* Youtube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BCE99CD233B28A500E8DD62 /* Youtube.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		352163E82354841300601D2E /* DemoBook.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DemoBook.entitlements; sourceTree = "<group>"; };
+		352E46C023502B6F00F42BC1 /* Scroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scroll.swift; sourceTree = "<group>"; };
+		3577EC22234DD79D00D8CDA6 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		3577EC26234DF31A00D8CDA6 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		3577EC28234DF78E00D8CDA6 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		358AF9E523516A2C00BC9383 /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		3592CE2D234C891500454D14 /* YoutubeRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeRow.swift; sourceTree = "<group>"; };
 		9BCE99B2233B079E00E8DD62 /* DemoBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,8 @@
 		9BCE99BE233B07A100E8DD62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9BCE99C1233B07A100E8DD62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9BCE99C3233B07A100E8DD62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BCE99C9233B235C00E8DD62 /* TaiwanyoutubeList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaiwanyoutubeList.swift; sourceTree = "<group>"; };
+		9BCE99CD233B28A500E8DD62 /* Youtube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Youtube.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +73,20 @@
 		9BCE99B4233B079E00E8DD62 /* DemoBook */ = {
 			isa = PBXGroup;
 			children = (
+				352163E82354841300601D2E /* DemoBook.entitlements */,
 				9BCE99B5233B079E00E8DD62 /* AppDelegate.swift */,
 				9BCE99B7233B079E00E8DD62 /* SceneDelegate.swift */,
+				9BCE99CD233B28A500E8DD62 /* Youtube.swift */,
+				3592CE2D234C891500454D14 /* YoutubeRow.swift */,
+				3577EC28234DF78E00D8CDA6 /* AppView.swift */,
+				352E46C023502B6F00F42BC1 /* Scroll.swift */,
+				3577EC26234DF31A00D8CDA6 /* SwiftUIView.swift */,
 				9BCE99B9233B079E00E8DD62 /* ContentView.swift */,
-				9BCE99BB233B07A100E8DD62 /* Assets.xcassets */,
+				358AF9E523516A2C00BC9383 /* ContentView2.swift */,
+				3577EC22234DD79D00D8CDA6 /* Data.swift */,
+				9BCE99C9233B235C00E8DD62 /* TaiwanyoutubeList.swift */,
 				9BCE99C0233B07A100E8DD62 /* LaunchScreen.storyboard */,
+				9BCE99BB233B07A100E8DD62 /* Assets.xcassets */,
 				9BCE99C3233B07A100E8DD62 /* Info.plist */,
 				9BCE99BD233B07A100E8DD62 /* Preview Content */,
 			);
@@ -146,9 +172,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3577EC23234DD79E00D8CDA6 /* Data.swift in Sources */,
+				9BCE99CE233B28A500E8DD62 /* Youtube.swift in Sources */,
+				3577EC29234DF78E00D8CDA6 /* AppView.swift in Sources */,
+				3577EC27234DF31A00D8CDA6 /* SwiftUIView.swift in Sources */,
+				9BCE99CA233B235C00E8DD62 /* TaiwanyoutubeList.swift in Sources */,
 				9BCE99B6233B079E00E8DD62 /* AppDelegate.swift in Sources */,
 				9BCE99B8233B079E00E8DD62 /* SceneDelegate.swift in Sources */,
 				9BCE99BA233B079E00E8DD62 /* ContentView.swift in Sources */,
+				352E46C123502B6F00F42BC1 /* Scroll.swift in Sources */,
+				3592CE2E234C891500454D14 /* YoutubeRow.swift in Sources */,
+				358AF9E623516A2C00BC9383 /* ContentView2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +318,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoBook/DemoBook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoBook/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DemoBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -294,6 +332,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.DemoBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -303,8 +342,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = DemoBook/DemoBook.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DERIVE_MACCATALYST_PRODUCT_BUNDLE_IDENTIFIER = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DemoBook/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = DemoBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,6 +356,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.peter.DemoBook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
